@@ -2,4 +2,6 @@ version: '3'
 
 services:
     db:
-        image: gaku3601/ja-postgresql:9.6.5
+        build: 
+            context: .
+            dockerfile: ./Dockerfile 
